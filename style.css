@@ -1,0 +1,73 @@
+
+
+#banner{
+    width: 100.1%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+
+    margin-left: -1px;
+    margin-top: -8px;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    padding: 0;
+    overflow-x: hidden; 
+    position: absolute;
+    top: 97px;
+}
+
+#myImage{
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+
+#text{
+    font-family:   sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    position: relative;
+    color: blue;
+    top: -141px;
+    z-index: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#textTwo{
+    font-family:   sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    position: relative;
+    color: red;
+    z-index: 1;
+    padding-right: 20px;
+    float: right;
+    top: -265px;
+}
+
+#backdrop{
+    width: 1441px;
+    height: 100px;
+    background-color: darkblue;
+    margin: -9px;
+    position: relative;
+    top: 0px;
+}
+
+section {
+    position: absolute;
+    width: 1421px;
+    height: 101px;
+    background: red;
+    transition: width 2s;
+    margin: -9px;
+    z-index: 1;
+  }
+  
+  section:hover {
+    width: 320px;
+  }
