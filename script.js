@@ -1,22 +1,22 @@
-$("document").ready(function() {
+//$("document").ready(function() {
 
-    $("#serif").click(makeSerif);
+//    $("#serif").click(makeSerif);
 
-    $("#sans-serif").click(makeSans);
+//    $("#sans-serif").click(makeSans);
 
-    $("#monospace").click(makeMono);
+//    $("#monospace").click(makeMono);
 
 });
 
-function makeSerif() {
-    $("p").css("font-family", "serif");
+//function makeSerif() {
+//    $("p").css("font-family", "serif");
 
 }
 
-function makeSans() {
-    $("p").css("font-family", "sans-serif");
+//function makeSans() {
+//    $("p").css("font-family", "sans-serif");
 }
 
-function makeMono() {
-    $("p").css("font-family", "monospace");
+//function makeMono() {
+//    $("p").css("font-family", "monospace");
 }
