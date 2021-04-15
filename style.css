@@ -117,13 +117,13 @@ p {
 body{
     margin: 250px;
     width: 70%;
-    
+    text-align:center;
 }
 
 div{
     font-size: 54px;
 }
-
+/*
 #instruct{
     margin: 50px;
 }
